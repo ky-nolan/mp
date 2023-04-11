@@ -5,8 +5,11 @@ Mountain project sucks at sorting routes. This adds more columns to be able to s
 - Total Views (new)
 - Views By Month (new)
 - Added Date (new)
+- Grade
 - Votes
 - Stars
+- Area
+- URL
 - Boulders Close (new) - Shows other Boulders that are within x yards and in the filter
 
 ### Running
