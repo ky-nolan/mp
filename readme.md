@@ -18,7 +18,7 @@ Mountain project sucks at sorting routes. This adds more columns to be able to s
 ```    
     rebuild_cache = True
     location = "DL Boulders"
-    grade_regex = ".*" #'.[0-7]' # "# '.
+    grade_regex = ".*" # selects all boulders
     votes_more_than = 0
     views_total_more_than = 0
     views_month_more_than = 0
@@ -37,7 +37,7 @@ Steps:
 5. Once this is running, feel free to experiment with different settings on the filters vars:
 
 ```
-    grade_regex = ".*" #'.[0-7]' # "# '.
+    grade_regex = ".*" # selects all boulders
     votes_more_than = 0
     views_total_more_than = 0
     views_month_more_than = 0
