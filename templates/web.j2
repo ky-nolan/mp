@@ -1,0 +1,82 @@
+
+
+
+
+<!DOCTYPE html>
+<html >
+<head>
+  <meta charset="UTF-8">
+  <title>BOUDLERIN</title>
+
+
+
+
+<link rel= "stylesheet" href= "./static/css/tableStyle.css">
+
+</head>
+
+<body>
+  <html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<title>Table Style</title>
+	<meta name="viewport" content="initial-scale=1.0; maximum-scale=1.0; width=device-width;">
+</head>
+
+<body>
+<div class="table-title">
+<h3>BOUDLERING!!</h3>
+</div>
+
+<div id=tableq>
+<table id="BOULDERIN" class="table-fill" data-sortlist="[[0,0],[2,0]]">
+<thead>
+
+
+<tr >
+	<th class="text-left">Area</th>
+	<th class="text-left">Sub Area</th>
+	<th class="text-left">Problem</th>
+	<th class="text-left">Grade</th>
+  <th class="text-left">Stars</th>
+  <th class="text-left">Votes</th>
+  <th class="text-left">URL</th>
+
+
+
+</tr>
+</thead>
+<tbody class="table-hover">
+s
+  {% for v in myList %}
+
+
+      <tr>
+        <td class="lalign" id="filter_col1" data-column="0">{{ v[1][2] }}</td>
+        <td class="lalign" id="filter_col2" data-column="1">{{ v[1][1] }}</td>
+        <td class="lalign" id="filter_col3" data-column="2">{{ v[1][0] }}</td>
+        <td class="lalign" id="filter_col3" data-column="2">{{ v[2]['rating'] }}</td>
+        <td class="lalign" id="filter_col3" data-column="2">{{ v[2]['stars'] }}</td>
+        <td class="lalign" id="filter_col3" data-column="2">{{ v[2]['starVotes'] }}</td>
+        <td class="lalign" id="filter_col3" data-column="2">{{ v[2]['pitches'] }}</td>
+        <td class="lalign" id="filter_col3" data-column="2">{{ v[2]['url'] }}</td>
+
+      </tr>
+
+
+      {% endfor %}
+
+</tbody>
+</table>
+</div>
+<p></p>
+<div class="wrapper2">
+</div>
+</div>
+<p></p>
+<div class="wrapper">
+</div>
+
+
+</body>
+</html>
