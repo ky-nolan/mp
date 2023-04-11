@@ -44,3 +44,7 @@ Steps:
     stars_more_than = 0.0
     distance_in_ft  = 528 #0.1 of a mile is 528
 ```
+
+## Picture of webpage
+
+![page](static\screenshot.png)
