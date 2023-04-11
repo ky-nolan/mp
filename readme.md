@@ -47,4 +47,4 @@ Steps:
 
 ## Picture of webpage
 
-![page](static\screenshot.png)
+![page](https://github.com/ky-nolan/mp/blob/master/static/screenshot.png)
